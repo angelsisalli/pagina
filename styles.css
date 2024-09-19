@@ -1,6 +1,6 @@
 body {
     text-align: center;
-    background-color: rgb(255, 250, 244);
+    background-color: rgb(255, 189, 189);
 }
 
 header {
@@ -63,13 +63,6 @@ a {
     max-height: 400px;
 }
 
-.pie_de_pagina {
-    color: #ffffff;
-    background-color: rgb(51, 48, 48);
-    border-top: 3px solid grey;
-    display: flex;
-    justify-content: center;
-}
 
 .sensa {
     border: 2px solid grey;
@@ -176,12 +169,22 @@ button {
 
 }
 
-.pie_de_pagina article {
-    padding: 8px;
-    border-top: 1px solid grey;
-}
 
 section article img{
     height: 200px;
     width: 400px;
+}
+
+.pie_de_pagina article {
+    padding: 8px;
+}
+
+.pie_de_pagina {
+    color: #ffffff;
+    background-color: rgb(51, 48, 48);
+    display: flex;
+    justify-content: center;
+    margin-top: 16px;
+    border-top: 3px solid grey;
+
 }
