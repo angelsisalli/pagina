@@ -1,11 +1,11 @@
 body {
     justify-content: center;
     text-align: center;
-    background-color: rgb(255, 250, 244);
+    background-color: rgb(196, 206, 255);
 }
 
 header {
-    background-color: rgb(145, 135, 197);
+    background-color: rgb(4, 15, 160);
     display: flex;
     align-items: center;
 
@@ -56,7 +56,7 @@ a {
 
 section article{
     margin: auto;
-    width: 80%;
+    width: 90%;
     display: flex;
     justify-content: center;
     padding: 20px;
@@ -72,6 +72,7 @@ section article img{
     width: 70%;
     max-height: 400px;    
 }
+
 section article div div{
     font-size: 20px;
     color: rgb(0, 0, 0);
@@ -113,4 +114,42 @@ section article div div button{
     display: flex;
     justify-content: center;
     margin-top: 16px;
+}
+
+.funciones h3 {
+    background-color: rgb(255, 153, 0); /* Celeste background color */
+    font-size: 25px;
+    color: white; /* White text color */
+    padding: 0px;
+    margin: 0px;
+    border: 0px;
+}
+    
+
+.funciones{
+    display: block;
+    width: 90%;
+}
+
+.funciones p {
+    font-size: 16px;
+    padding: 10px;
+    color: black; /* Black text color */
+}
+.title{
+    background-color: rgb(255, 234, 211); /* White background color */
+    border: 4px solid orange;
+
+}
+.fun_sensa {
+    display: flex;
+    border: none;
+    
+}
+
+.fun_sensa div {
+    background-color: rgb(255, 234, 211); /* White background color */
+   width: 33%;
+   margin: 10px;
+   border: 4px solid orange;
 }
