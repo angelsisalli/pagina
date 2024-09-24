@@ -1,14 +1,12 @@
 body {
-    justify-content: center;
     text-align: center;
-    background-color: rgb(196, 206, 255);
+    background-color: rgb(255, 234, 211);
 }
 
 header {
-    background-color: rgb(4, 15, 160);
+    background-color: rgb(255, 255, 255);
     display: flex;
     align-items: center;
-
     justify-content: space-between;
 }
 
@@ -24,7 +22,7 @@ header section div {
     top: 100%;
     left: 0;
     width: 100%;
-    box-shadow: 0px 8px 16px rgba(0, 0, 0, 0.205);
+    box-shadow: 0px 8px 16px rgba(255, 0, 0, 0.205);
     z-index: 1;
 }
 
@@ -36,12 +34,12 @@ header section div a {
 }
 
 header section:hover {
-    background-color: #262D55;
+    background-color: #afafaf;
 }
 
 header section div a:hover {
-    color: rgb(255, 238, 216);
-    background-color: #262d55;
+    color: rgb(0, 0, 0);
+    background-color: #afafaf;
 }
 
 header section:hover div {
@@ -50,23 +48,26 @@ header section:hover div {
 }
 
 a {
-    color: rgb(255, 238, 216);
+    color: rgb(0, 0, 0);
     text-decoration: none;
 }
-
+.logo {
+    float: none;
+    margin-right: auto;
+}
 section article{
     margin: auto;
     width: 90%;
     display: flex;
     justify-content: center;
     padding: 20px;
-    background-color: rgb(255, 185, 119);
-    border: 2px solid rgb(255, 123, 0);
+    background-color: rgb(119, 144, 255);
+    border: 2px solid rgb(0, 26, 255);
 }
 section article img{
     height: 100%;
     width: 400px;
-    border: 4px solid rgb(255, 123, 0);
+    border: 4px solid rgb(0, 38, 255);
 }
 .playa{
     width: 70%;
@@ -80,7 +81,7 @@ section article div div{
     text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
   }
 .precio{
-    color: #B73C00;
+    color: #0c00b7;
     font-size: 30px;
     padding: 10px 20px;
     border-radius: 5px;
@@ -97,8 +98,8 @@ section article div div button{
     font-weight: lighter;
     width: 25%;
     text-align: center;
-    background-color: rgb(255, 123, 0);
-    border: 1px solid rgb(0, 0, 151);
+    background-color: rgb(0, 4, 255);
+    border: 1px solid rgb(151, 73, 0);
     border-radius: 8%;
     height: 40px;
   }
@@ -117,10 +118,10 @@ section article div div button{
 }
 
 .funciones h3 {
-    background-color: rgb(255, 153, 0); /* Celeste background color */
+    background-color: rgb(0, 68, 255); /* Celeste background color */
     font-size: 25px;
     color: white; /* White text color */
-    padding: 0px;
+    padding: 10px;
     margin: 0px;
     border: 0px;
 }
@@ -138,7 +139,7 @@ section article div div button{
 }
 .title{
     background-color: rgb(255, 234, 211); /* White background color */
-    border: 4px solid orange;
+    border: 4px solid rgb(0, 60, 255);
 
 }
 .fun_sensa {
@@ -151,5 +152,5 @@ section article div div button{
     background-color: rgb(255, 234, 211); /* White background color */
    width: 33%;
    margin: 10px;
-   border: 4px solid orange;
+   border: 4px solid rgb(0, 81, 255);
 }
