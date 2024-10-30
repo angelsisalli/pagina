@@ -55,6 +55,10 @@ a {
     float: none;
     margin-right: auto;
 }
+.w{
+    height: 100px;
+    width: 200px;
+}
 section article{
     margin: auto;
     width: 90%;
@@ -63,6 +67,12 @@ section article{
     padding: 20px;
     background-color: rgb(119, 144, 255);
     border: 2px solid rgb(0, 26, 255);
+}
+.contenedor_packs article{
+    width: 100%;
+}
+.contenedor_packs article div{
+    padding: 30px;
 }
 section article img{
     height: 100%;

@@ -1,13 +1,12 @@
 body {
     text-align: center;
-    background-color: rgb(255, 189, 189);
+    background-color: rgb(255, 234, 211);
 }
 
 header {
-    background-color: rgb(145, 135, 197);
+    background-color: rgb(255, 255, 255);
     display: flex;
     align-items: center;
-
     justify-content: space-between;
 }
 
@@ -22,10 +21,9 @@ header section div {
     position: absolute;
     top: 100%;
     left: 0;
-    box-shadow: 0px 8px 16px rgba(0, 0, 0, 0.205);
-    z-index: 1;
     width: 100%;
-
+    box-shadow: 0px 8px 16px rgba(255, 0, 0, 0.205);
+    z-index: 1;
 }
 
 header section div a {
@@ -36,12 +34,12 @@ header section div a {
 }
 
 header section:hover {
-    background-color: #262D55;
+    background-color: #afafaf;
 }
 
 header section div a:hover {
-    color: rgb(255, 238, 216);
-    background-color: #262d55;
+    color: rgb(0, 0, 0);
+    background-color: #afafaf;
 }
 
 header section:hover div {
@@ -50,14 +48,15 @@ header section:hover div {
 }
 
 a {
-    color: rgb(255, 238, 216);
+    color: rgb(0, 0, 0);
     text-decoration: none;
 }
-
 .logo {
     float: none;
     margin-right: auto;
 }
+
+
 
 .imagen_portada img {
     width: 100%;
